@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITSEC SUCRE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ITSEC SUCRE</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sistemas-informaticos">Sistemas Informáticos</a></li>
+                <li><a href="#motivo-eleccion">Motivo de Elección</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Inicio -->
+        <section id="inicio">
+            <h2>Bienvenidos a ITSEC SUCRE</h2>
+            <p><strong>Misión:</strong> {{ la mision que tengo es poder generar dinero desde mi casa y poder trbajar de la progrmacion }}</p>
+            <p><strong>Visión:</strong> {{ poder trabajar en alguna empresa de  }}</p>
+            <p>Ubicación:<a href="https://www.itsecsucre.edu.bo" class="button"></a></p>
+        </section>
+
+        <!-- Sección de Sistemas Informáticos -->
+        <section id="sistemas-informaticos">
+            <h2>Carrera de Sistemas Informáticos</h2>
+            <p>La carrera de Sistemas Informáticos ofrece una formación integral que permite al estudiante comprender los principios fundamentales de la computación, así como las herramientas necesarias para trabajar en la creación y administración de sistemas de software y hardware. Los estudiantes adquieren 
+                competencias en programación, redes, bases de datos, diseño de aplicaciones, seguridad informática, inteligencia artificial, entre otros.</p>
+        </section>
+
+        <!-- Sección Motivo de Elección de la Carrera -->
+        <section id="motivo-eleccion">
+            <h2>El motivo por el cual elegi esta carrera fue por el tema laborar 
+                que te brinda mas oportunidades al poder trabajar desde casa o en una oficina y al no ser tan complicado no te estresas </h2>
+            <p>La razon para elegir esta carrera fue por que me interesa mas aprender sobre la tecnologia y poder estar al tanto y tambien por que me parese interesante la progrmacion</p>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <main style="background-image: url('background.jpg'); background-size: cover;"></main>
+            <section>
+                <p><a href="https://www.itsecsucre.edu.bo" class="button">INSTITUTO TECNICO SUPERIOR DE EDUCACION COMERCIAL ITSEC</a></p>
+                <img src="c:\Users\Usuario\Documents\htm\IMG-20240902-WA0004.jpg" alt="Escudo del Instituto" class="logo">
+                <p>Nombre del Estudiante: JOSUE MONTERO</p>
+                <p> carrera: SISTEMAS INFORMATICOS</p>
+                <p>Curso: 1RO "B" </p>
+                <p>Materia: DISEÑO WEB</p>
+                <p>Docente: ING. HUGO ALFREDO</p>
+            </section>
+        </main>
+            <h2>Contacto</h2>
+            <form id="form-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ITSEC SUCRE</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
